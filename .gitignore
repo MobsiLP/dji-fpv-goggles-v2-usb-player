@@ -1,12 +1,40 @@
 # Python
 __pycache__/
-*.py[cod]
-*$py.class
-
-# Virtual environment
+*.pyc
+*.pyo
+*.pyd
 .venv/
 venv/
 env/
+
+# Build artifacts
+*.exe
+*.dll
+*.so
+*.obj
+*.lib
+*.exp
+
+# Extracted APKs / analysis
+extracted_*/
+*.apk
+*.obb*
+
+# Analysis output files
+*_search.txt
+*.txt
+
+# Large binaries / installers
+*.msi
+*.exe
+*.cab
+.NET Framework*/
+DirectX*/
+Visual C++*/
+*driver*/
+
+# Test scripts
+test_*.py
 
 # IDE
 .vscode/
@@ -15,17 +43,5 @@ env/
 *.swo
 
 # OS
-.DS_Store
 Thumbs.db
-
-# Test outputs / temp files
-*.h264
-*.mp4
-*.png
-*.log
-
-# Large APK (not needed in repo)
-*.apk
-
-# Environment
-.env
+.DS_Store
