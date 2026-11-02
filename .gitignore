@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test outputs / temp files
+*.h264
+*.mp4
+*.png
+*.log
+
+# Large APK (not needed in repo)
+*.apk
+
+# Environment
+.env

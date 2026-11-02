@@ -1,0 +1,12 @@
+opencv-python>=4.8
+numpy>=1.24
+pillow>=10.0
+
+# USB-Video-Out (RMVT/Bulk) - neuer, funktionierender Weg
+pyusb>=1.2
+libusb-package>=1.0.26
+av>=12.0
+
+# Alter ADB-Ansatz (nur noch als Fallback/Historie)
+adb-shell>=0.4
+pure-python-adb>=0.3
